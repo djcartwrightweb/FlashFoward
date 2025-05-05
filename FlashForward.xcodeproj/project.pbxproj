@@ -6,7 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D487AE702DC4AB6600584C25 /* DecksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487AE6D2DC4AB6600584C25 /* DecksView.swift */; };
+		D487AE742DC4AFE200584C25 /* AddDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487AE732DC4AFE200584C25 /* AddDeckView.swift */; };
+		D487AE762DC4B47300584C25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487AE752DC4B47300584C25 /* HomeView.swift */; };
+		D487AE792DC9742E00584C25 /* DeckAndCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487AE782DC9742E00584C25 /* DeckAndCard.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		D487AE6D2DC4AB6600584C25 /* DecksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecksView.swift; sourceTree = "<group>"; };
+		D487AE732DC4AFE200584C25 /* AddDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeckView.swift; sourceTree = "<group>"; };
+		D487AE752DC4B47300584C25 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D487AE782DC9742E00584C25 /* DeckAndCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckAndCard.swift; sourceTree = "<group>"; };
 		D49900AF2DC42A51001B585C /* FlashForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -29,9 +40,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D487AE722DC4AE5600584C25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D487AE6D2DC4AB6600584C25 /* DecksView.swift */,
+				D487AE732DC4AFE200584C25 /* AddDeckView.swift */,
+				D487AE752DC4B47300584C25 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D487AE772DC9741100584C25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D487AE782DC9742E00584C25 /* DeckAndCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D49900A62DC42A51001B585C = {
 			isa = PBXGroup;
 			children = (
+				D487AE772DC9741100584C25 /* Models */,
+				D487AE722DC4AE5600584C25 /* Views */,
 				D49900B12DC42A51001B585C /* FlashForward */,
 				D49900B02DC42A51001B585C /* Products */,
 			);
@@ -119,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D487AE742DC4AFE200584C25 /* AddDeckView.swift in Sources */,
+				D487AE792DC9742E00584C25 /* DeckAndCard.swift in Sources */,
+				D487AE762DC4B47300584C25 /* HomeView.swift in Sources */,
+				D487AE702DC4AB6600584C25 /* DecksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

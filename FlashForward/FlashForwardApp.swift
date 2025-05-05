@@ -11,7 +11,7 @@ import SwiftUI
 struct FlashForwardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DecksView()
         }
     }
 }
