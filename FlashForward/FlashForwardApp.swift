@@ -12,6 +12,11 @@ struct FlashForwardApp: App {
     var body: some Scene {
         WindowGroup {
             DecksView()
+                .modelContainer(for: Deck.self)
         }
+    }
+    
+    init() {
+        print(URL.applicationSupportDirectory.path(percentEncoded: false))
     }
 }

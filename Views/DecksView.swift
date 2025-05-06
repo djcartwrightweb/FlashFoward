@@ -15,21 +15,26 @@ import SwiftData
 
 struct DecksView: View {
     
-    @Environment(\.colorScheme) private var colorScheme
     @State private var viewModel = DecksViewModel()
     @State private var showAddDeckView: Bool = false
     
     var body: some View {
-        
-        VStack {
-            if viewModel.decks.isEmpty {
-                emptyView
-                    .offset(y: -50)
-            }
-
+        NavigationStack { //adding navigation stack left off here
             
+            VStack {
+                if viewModel.decks.isEmpty {
+                    emptyView
+                        .offset(y: -50)
+                } else {
+                    
+                    Text("Hello")
+                    .navigationTitle(Text("Decks"))
+                }
+                
+                
             }
-        .padding()
+            .padding()
+        }
         .fullScreenCover(isPresented: $showAddDeckView) {
             AddDeckView()
         }

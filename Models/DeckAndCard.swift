@@ -21,11 +21,15 @@ class Card: Identifiable {
 
 @Model
 class Deck {
-    var name: String
+    @Attribute(.unique) var name: String
+    var icon: String
+    var color: String
     var cards: [Card]
     
-    init(name: String, cards: [Card]) {
+    init(name: String, icon: String, color: String, cards: [Card]) {
         self.name = name
+        self.icon = icon
+        self.color = color
         self.cards = cards
     }
 }
