@@ -22,6 +22,7 @@ class Card: Identifiable {
 @Model
 class Deck {
     @Attribute(.unique) var name: String
+    var briefDescription: String?
     var icon: String
     var color: String
     var cards: [Card]

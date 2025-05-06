@@ -12,6 +12,7 @@
 		D487AE762DC4B47300584C25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487AE752DC4B47300584C25 /* HomeView.swift */; };
 		D487AE792DC9742E00584C25 /* DeckAndCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487AE782DC9742E00584C25 /* DeckAndCard.swift */; };
 		D487AE7C2DCA003100584C25 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D487AE7B2DCA003100584C25 /* SampleData.swift */; };
+		D4C2CD252DCA30FA008A69CA /* AddDeckOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C2CD242DCA30FA008A69CA /* AddDeckOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D487AE782DC9742E00584C25 /* DeckAndCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckAndCard.swift; sourceTree = "<group>"; };
 		D487AE7B2DCA003100584C25 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		D49900AF2DC42A51001B585C /* FlashForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C2CD242DCA30FA008A69CA /* AddDeckOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeckOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -55,6 +57,7 @@
 		D487AE772DC9741100584C25 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D4C2CD242DCA30FA008A69CA /* AddDeckOptions.swift */,
 				D487AE782DC9742E00584C25 /* DeckAndCard.swift */,
 			);
 			path = Models;
@@ -165,6 +168,7 @@
 				D487AE7C2DCA003100584C25 /* SampleData.swift in Sources */,
 				D487AE792DC9742E00584C25 /* DeckAndCard.swift in Sources */,
 				D487AE762DC4B47300584C25 /* HomeView.swift in Sources */,
+				D4C2CD252DCA30FA008A69CA /* AddDeckOptions.swift in Sources */,
 				D487AE702DC4AB6600584C25 /* DecksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
